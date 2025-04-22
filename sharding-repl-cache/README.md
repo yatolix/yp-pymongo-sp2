@@ -1,5 +1,9 @@
 # pymongo-api
 
+## Архитектурная схема
+
+В формате draw.io - https://drive.google.com/file/d/1eQuR8rPTteEaDq0q1DcB_sHafrzBgVlq/view?usp=sharing
+
 ## Как запустить
 
 Запускаем mongodb и приложение
