@@ -10,7 +10,7 @@ rs.initiate({
 })'
 
 # Wait for the Config Server to become primary
-sleep 15
+sleep 5
 
 # Initialize Shard 1 replica set
 echo "Initializing Shard 1 (sh1-rs) replica set..."
@@ -25,7 +25,7 @@ rs.initiate({
 })'
 
 # Wait for Shard 1
-sleep 15
+sleep 5
 
 # Initialize Shard 2 replica set
 echo "Initializing Shard 2 (sh2-rs) replica set..."
@@ -40,7 +40,7 @@ rs.initiate({
 })'
 
 # Wait for Shard 2
-sleep 15
+sleep 5
 
 # Add Shard 1 and Shard 2 to the cluster via the Router - 
 # We may add only one replica for each shard and the router will load a list of all other replicas from that first one.
